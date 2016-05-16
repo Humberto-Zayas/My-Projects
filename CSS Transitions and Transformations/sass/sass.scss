@@ -1,0 +1,15 @@
+@import "variables";
+
+.nothingHere {
+	background-color: $text-color;
+	&:hover {
+		background-color: $link-color;
+	}
+	&:target > div {
+		position: absolute;
+		&:first-child {
+			color: pink;
+		}
+	}
+}
+

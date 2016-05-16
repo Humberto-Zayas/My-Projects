@@ -1,0 +1,12 @@
+.nothingHere {
+  background-color: #00f;
+}
+.nothingHere:hover {
+  background-color: #f00;
+}
+.nothingHere:target > div {
+  position: absolute;
+}
+.nothingHere:target > div:first-child {
+  color: pink;
+}
