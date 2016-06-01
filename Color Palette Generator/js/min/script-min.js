@@ -1,0 +1,1 @@
+function makeColor(){red=Math.floor(256*Math.random()),green=Math.floor(256*Math.random()),blue=Math.floor(256*Math.random()),rgbColor="rgb("+red+","+green+","+blue+")",html+='<div style="background-color:'+rgbColor+'"></div>'}function generate(){for(;10>counter;)makeColor(),counter+=1;document.write(html)}var html="",red,green,blue,rgbColor,counter=0;generate();
